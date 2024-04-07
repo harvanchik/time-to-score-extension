@@ -1,0 +1,12 @@
+a {
+  color: #771be8 !important;
+}
+/* target <font> with color red; change color to yellow */
+a > font[color="red"] {
+  color: #ed3d04 !important;
+  font-weight: bold !important;
+}
+
+table {
+  border-radius: 5px !important;
+}
